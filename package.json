@@ -1,0 +1,13 @@
+{
+  "name": "vca",
+  "version": "1.0.0",
+  "description": "Company website for Vidanta CA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "tailwindcss -i ./src/input.css -o ./public/dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-stone-200 dark:bg-stone-800 w-screen h-screen smooth;
+}
+
+.nav {
+  @apply bg-stone-100 flex flex-col gap-2 p-4 justify-center rounded-r-lg shadow-lg -translate-x-64 lg:-translate-x-0 smooth;
+}
+
+.nav-btn {
+  @apply  w-12 h-12 rounded-lg text-2xl flex px-2 items-center text-gray-800;
+}
+
+.smooth {
+  @apply transform duration-300 ease-in-out;
+}
+.smoother {
+    @apply transform duration-500 ease-in-out;
+}
+.toggle-checkbox:checked {
+  @apply: right-0 border-green-400;
+  right: 0;
+  border-color: #68d391;
+}
+.toggle-checkbox:checked + .toggle-label {
+  @apply: bg-green-400;
+  background-color: #68d391;
+}
+.tooltip {
+    @apply group-hover:opacity-100 opacity-0 group-hover:translate-x-7 translate-x-9 smoother bg-black text-white rounded-r-lg px-2 py-4 text-sm;
+}
+card {
+  @apply dark:text-white p-4 rounded-lg bg-slate-400;
+}
+logo {
+  @apply flex justify-center w-full;
+}
+logo img{
+  @apply w-52 h-auto;
+}
+.main {
+  @apply w-full h-full container mx-auto pt-10;
+}
