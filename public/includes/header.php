@@ -38,5 +38,4 @@ include_once "globalvar.php";
     
     <?php
     include site()."includes/bg.php";
-    include site()."components/navbar/nav.php";
     ?>

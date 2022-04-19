@@ -22,6 +22,7 @@
             enableDarkMode();
         } else if ($('#toggle').prop('checked') == false) {
             $('#toggle').val('dark');
+            $('#logo').prop('src', '<?php echo site(); ?>assets/img/logo.png');
             console.log('Darkmode Disabled');
             disableDarkMode();
         }
