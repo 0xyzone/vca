@@ -1,5 +1,7 @@
 <?php
+session_start();
 include_once "globalvar.php";
+include_once "dbconnection.php";
 ?>
 
 <!DOCTYPE html>
