@@ -45,7 +45,7 @@ logo img{
   @apply w-full h-full container mx-auto pt-10;
 }
 a {
-  @apply text-violet-600 hover:text-violet-900 smooth;
+  @apply text-violet-900 hover:text-violet-500 dark:hover:text-white smooth;
 }
 
 /* Forms */
@@ -56,7 +56,7 @@ legend {
   @apply p-3 bg-violet-900 text-white rounded-lg text-center w-6/12;
 }
 .loginform form input {
-  @apply outline-none focus:outline-none px-2 py-1 bg-transparent focus:border-b-2 focus:border-b-violet-700 border-b-2 border-gray-300 smooth w-full;
+  @apply outline-none focus:outline-none px-2 py-1 bg-transparent focus:border-b-2 focus:border-b-violet-700 border-b-2 border-gray-300 smooth w-full dark:text-white dark:placeholder:text-white/50 smooth;
 }
 .loginform form input[type='button'] {
   @apply outline-none focus:outline-none bg-violet-400 px-4 py-2 rounded-lg hover:bg-violet-700 text-white smooth disabled:bg-gray-400;

@@ -839,7 +839,7 @@ logo img {
 
 a {
   --tw-text-opacity: 1;
-  color: rgb(124 58 237 / var(--tw-text-opacity));
+  color: rgb(76 29 149 / var(--tw-text-opacity));
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -847,7 +847,12 @@ a {
 
 a:hover {
   --tw-text-opacity: 1;
-  color: rgb(76 29 149 / var(--tw-text-opacity));
+  color: rgb(139 92 246 / var(--tw-text-opacity));
+}
+
+.dark a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 /* Forms */
@@ -896,6 +901,23 @@ legend {
   border-bottom-color: rgb(109 40 217 / var(--tw-border-opacity));
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.dark .loginform form input {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.dark .loginform form input::-moz-placeholder {
+  color: rgb(255 255 255 / 0.5);
+}
+
+.dark .loginform form input:-ms-input-placeholder {
+  color: rgb(255 255 255 / 0.5);
+}
+
+.dark .loginform form input::placeholder {
+  color: rgb(255 255 255 / 0.5);
 }
 
 .loginform form input[type='button'] {

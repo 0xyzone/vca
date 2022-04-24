@@ -8,14 +8,15 @@ include "../includes/header.php";
     <div class="loginform">
         <fieldset>
             <legend>Login to the system!</legend>
+            
             <form action="validate.php" method="post">
                 <input type="text" name="uname" id="uname" placeholder="Username/Email" autofocus>
                 <input type="password" name="password" id="password" placeholder="Password">
                 <input type="button" class="mt-4" id="login" disabled="disabled" value="Login">
-                <a href="#">Forgot your password?</a>
+                <a href="#">Forgot your password? </a>
             </form>
         </fieldset>
-    </div>
+    </div><?php include '../components/darkmode.php' ?>
 </div>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="../assets/js/login.js"></script>
